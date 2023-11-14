@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:silent": "jest --watchAll --silent --noStackTrace",
     "dev": "webpack -w",
     "build:backend": "tsc"
   },
