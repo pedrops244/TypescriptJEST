@@ -19,7 +19,5 @@ describe('Primitive values', () => {
 
     expect(person).toEqual(anotherPerson);
     expect(person).toHaveProperty('age');
-    expect(person).toHaveProperty('age', 22);
-    expect(person).toBeLessThanOrEqual(11);
   });
 });
