@@ -15,6 +15,7 @@ describe('Discount', () => {
   it('should have no discount', () => {
     const sut = createSut(NoDiscount);
     expect(sut.calculate(10.99)).toBe(10.99);
+    expect(sut.calculate(10.99)).toBe(10.99);
   });
 
   it('should apply 50% discount on price', () => {
