@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:silent": "jest --watchAll --silent --noStackTrace",
+    "test:coverage": "jest --coverage",
     "dev": "webpack -w",
     "build:backend": "tsc"
   },
