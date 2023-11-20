@@ -22,6 +22,7 @@ describe('IndividualCustomer', () => {
     expect(sut).toHaveProperty('firstName', 'Pedro');
     expect(sut).toHaveProperty('lastName', 'Souza');
     expect(sut).toHaveProperty('cpf', '111.111');
+    expect(sut).toHaveProperty('cpf', '111.111');
   });
 
   it('should have methods get name and idn for individual customers', () => {
